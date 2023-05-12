@@ -32,14 +32,21 @@ const State1 = () => {
   );
 };
 
+
+
+
+
+
+
 // TODO: What do you think will happen when the increment button is clicked?
 // Why do you think this happens?
 // Fix this component.
 const State2 = () => {
-  let count = 0;
+  const [count, setCount] = useState(0);
 
+  // let count = 0;
   const increment = () => {
-    count++;
+   setCount(count + 1);
   };
 
   return (

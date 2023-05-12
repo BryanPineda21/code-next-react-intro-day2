@@ -3,7 +3,7 @@ import React from 'react';
 export const Components = () => {
   return (
     <>
-      <Components1 x={4} />
+      <Components1 x={4}/>
       <Components1 />
 
       <br />
@@ -23,6 +23,9 @@ const Components1 = (props) => {
   return <div>Components1: {x * 2}</div>;
 };
 
+// we have a component that has a constant 
+
+
 // TODO: What does this component show?
 const Components2 = () => {
   return (
@@ -38,5 +41,9 @@ const WelcomeLoudly = (props) => {
 
 // TODO: Make some more basic components, and render them after "Components3".
 const Components3 = () => {
-  return <div>Components3:</div>;
+  return <div>Components3:<CamelCase name = {'Bryan'}/></div>;
 };
+
+const CamelCase =(props)=>{
+return <span>{props.name}</span>;
+}
