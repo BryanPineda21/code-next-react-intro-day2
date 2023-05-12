@@ -44,9 +44,9 @@ export const Events = () => {
       <br />
       <canvas ref={canvas} 
       onMouseMove={onMouseMove} 
-      onMouseDown={onMouseDown}
-      onMouseUp={onMouseUp}
-      onMouseLeave={onMouseLeave}
+      // onMouseDown={onMouseDown}
+      // onMouseUp={onMouseUp}
+      // onMouseLeave={onMouseLeave}
 
 
 
